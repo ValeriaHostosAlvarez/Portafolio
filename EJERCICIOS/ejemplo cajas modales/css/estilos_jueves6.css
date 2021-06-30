@@ -1,0 +1,161 @@
+@font-face{
+	font-family:"Olivia";
+	src:url("../fonts/Olivia & Kevin.ttf")format('truetype');
+	font-style:normal;
+	font-weight: normal;
+	}
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+*{
+	margin: 0;
+	padding:0;
+	border:0;
+	box-sizing: border-box; /*   ayuda a cuadrar las cajas en sus lugares si desbordarse */
+	}
+
+body{
+	background-image: url("../images/fondo.jpg");
+	background: cover;
+	font-family:"Olivia";
+	}
+
+
+h1,h2,h3{
+	font-family:'Pangolin',Regular 400;
+	text-align: center;
+	color: #07FFEB;
+	}
+
+p{
+	text-align: justify;
+	font-family:"Pangolin", Regular 400;
+}
+
+
+.fila {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	}
+
+.caja{
+	background-color:rgba(0,0,0,0.5);
+	max-width: 30rem;
+	width: 100%;
+	min-height: 30rem;
+	max-height: 30rem;
+	height: 100%;
+	margin: 30px 0;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	border-radius: 5px;
+	font-size: 20px;
+	}
+
+select{
+	background-color: pink;
+	min-height: 2.5rem;
+	height: 100%;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 3px 3px 3px #404040;
+	}
+
+
+#correcto{
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	line-height: 55px;
+	padding:20px;
+	max-width: 100%;
+	width: 100%;
+	max-height:5rem;
+	min-height: 5rem;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+
+
+}
+
+#correcto img{
+	width: 30px;
+
+}
+
+#acertijo{
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	line-height: 55px;
+	padding:20px;
+	max-width: 100%;
+	width: 100%;
+	max-height:5rem;
+	min-height: 5rem;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+
+
+}
+
+#acertijo img{
+	width: 20px;
+
+}
+
+.fila2{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	}
+
+#refran{
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	line-height: 55px;
+	padding:20px;
+	max-width: 100%;
+	width: 100%;
+	max-height:5rem;
+	min-height: 5rem;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+
+
+}
+
+#refran img{
+	width: 20px;
+
+}
+
+#adivinanza{
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	line-height: 55px;
+	padding:20px;
+	max-width: 100%;
+	width: 100%;
+	max-height:5rem;
+	min-height: 5rem;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+
+
+}
+
+#adivinanza img{
+	width: 20px;
+
+}
+

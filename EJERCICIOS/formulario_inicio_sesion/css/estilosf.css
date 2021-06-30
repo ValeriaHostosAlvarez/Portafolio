@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+body{
+	background-image: url("../img/fondogato.jpg");
+	background-size: cover;
+}
+
+h1{
+	margin: 80px;
+  color: #FC197C;
+  text-shadow: 2px 2px 2px #8A22E6;
+  text-align: center;
+  padding: 20px;
+}
+.card{
+	background-color:#CEEFF5 ;
+	text-align: center;
+  	margin: 80px auto;
+}
+.mb-3{
+	border-color: #B7B7FA;
+}
+.error{
+	border:2px solid red;
+
+}

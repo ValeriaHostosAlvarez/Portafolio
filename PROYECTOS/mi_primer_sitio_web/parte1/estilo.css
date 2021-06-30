@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	background-image: url("..images/index.jpg");
+	background-position:top center;
+	height: 1048px
+	}
+header{
+	max-width: 1000px;
+	width: 100%;
+	background-color:rgba(255,0,0,0.5);
+	max-height: 85px;
+	height:100%;
+	margin:auto;
+}
+nav{
+	max-width: 1000px
+	width: 40%;
+	background-color: rgba(0,255,0,0.5); 
+	max-height: 45px;
+	height: 100%;
+	margin: auto;
+}
+#banner{
+	max-width: 1000px;
+	width: 100%
+	background-color: rgba(0,0,2550,0.5);
+	max-height: 325px;
+	height: 100%
+	margin:auto;
+}
+#principal{
+	max-width: 1000px;
+	width: 100%
+	background-color: rgba(0,0,2550,0.5);
+	max-height: 300px;
+	height: 100%
+	margin:auto;
+}
+#bottom{
+	max-width: 1000px;
+	width: 100%
+	background-color: rgba(0,0,2550,0.5);
+	max-height: 325px;
+	height: 100%
+	margin:auto;
+	}
+
+#footer{
+	max-width: 1000px;
+	width: 100%
+	background-color: rgba(0,0,2550,0.5);
+	max-height: 325px;
+	height: 100%
+	margin:auto;
+
+}

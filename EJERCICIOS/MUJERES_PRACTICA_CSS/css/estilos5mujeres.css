@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Della+Respira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+h1 {
+	font-family: 'Bree Serif', serif;
+	text-transform:capitalize;
+	color:#7C1A90;
+	text-transform:center;
+	}
+
+body {
+	font-family: 'Della Respira', serif;
+	color:#283071;
+	background-color: beige; 
+	background-image: url("..//images/snow/snow.png");
+	background-size: cover;
+	text-align: justify;
+
+	margin-top:100px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	}
+
+h2 {
+	font-family: 'Bree Serif', serif;
+	text-align:left;
+	color:#7C1A90;
+	}
+p{
+	font-family: 'Della Respira', serif;
+	color:#283071;
+	}
+
+li
+	a:link {
+  	color: #BF06BA;
+  	font-weight: bold;
+  	text-decoration:unset;
+	}
+
+	a:visited {
+  	color: #0A7FAB;
+  	font-weight: bold;
+  	text-decoration: unset;
+	}
+
+    a:hover {
+    background-color: #0A7FAB;
+    color: #BF06BA;
+    text-decoration: unset;
+	}
+
+table td{
+	width: 500px;
+	border:width 4px;
+	border-collapse: collapse;
+	border-style: dashed;
+	border-color: #BF06BA;
+	text-align:center;
+	}
+
+

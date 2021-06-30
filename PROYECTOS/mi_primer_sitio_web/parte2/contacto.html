@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<title> Maquetación Web </title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<link rel="stylesheet"  type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+	<link rel=”stylesheet” href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<header>	<!--INCIO d de cabecera, donde está el logotipo-->
+	<div class="logo">	<!-- hago una div para el logo-->
+	<img src="images/logotipo.png">
+		<div class="botoneshead">
+			<ul>
+				<li class="regis"> Registrarse </li>
+				<li class="iniciosesion"> Iniciar Sesión </li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+<nav>	<!--INCIO DE BARRA DE NAVEGACION-->
+	<ul> <!--El navegador es una lista no ordenada-->
+		<li><a href="indexparte2.html"> <i class="fa fa-home"></i> Inicio </a></li>
+		<li><a href="quienessomos.html"><i class="fa fa-handshake-o"></i> Quienes somos</a></li>
+		<li><a href="servicio.html"><i class="fa fa-puzzle-piece"></i> Portafolio </a>
+			<ul class="submenu">
+				<li><a href="servicios.html"> Servicios</a></li>
+				<li><a href="productos.html"> Productos</a></li>
+			</ul>
+		</li>
+		<li><a href="contacto.html"><i class="fa fa-envelope-o"></i> Contáctenos </a></li>
+	</ul>
+</nav>
+
+
+<section>
+	<div class="location" >
+		<article class="card">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4997035857405!2d-74.16756968523775!3d4.682863696598538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ce3f2b9237b%3A0xa98c04fd268fbbff!2zQ3JhLiAxMjMsIEZvbnRpYsOzbiwgQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1618403447720!5m2!1ses-419!2sco"allowfullscreen="" loading="lazy"></iframe>
+		</article>
+		
+	<div>
+		
+	<div class="card datos_contacto">
+		<h1>¿Cómo encontrarnos?</h1><br>
+			<p><i class="material-icons">location_on</i><span id="textocontacto"><b>Dirección:</b> </span>Cra 123 # 4-56 Bogotá D.C, Cundinamarca </p>					
+			<p><i class="material-icons">call</i><span id="textocontacto"><b>Teléfono:</b></span>311 222 33 44</p>
+			<p><i class="material-icons">email</i><span id="textocontacto"><b>Email: </b></span>correo@gmail.com</p>						
+		</div>  
+	</div>	
+</section>
+
+<section>
+	<div class="diligencia_info">
+		<h1><strong> Envíenos su mensaje </strong></h1>
+		<hr>
+	</div>
+
+
+	<div id="hojavida">
+
+		<h3> Diligenica la siguinete información.</h3>
+
+		<form name="envia_msn" method="get" action="url">
+
+			<label for="nombre"> Nombre :</label>
+			<input type="text" id="nombre" size="50" maxlength="50" required>
+			
+			<label for="correo"> Email :</label>
+			<input type="email" id="correo" name="correo" size="20" maxlength="50" required>
+
+			<label for="nombre"> Teléfono de contacto : </label>
+			<input type="text" id="telefono" name="telefono" size="20" maxlength="20" required>
+
+			<label for="nombre"> Asunto : </label>
+			<input type="text" id="asunto"  name="asunto"size="50" maxlength="50" required>
+
+			<label for="nombre"> Mensaje </label>
+			<textarea rows="5"></textarea>
+
+				
+	<input type="submit" value="Enviar mensaje">
+
+	</form>
+</div>
+</section>
+
+<footer>
+	&copy; Sitio desarrollado por Valeria Hostos- Todos los derechos reservados
+</footer>
+
+</body>
+</html>
